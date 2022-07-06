@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /usr/local/bin/pnpm add create-umi@latest --global --global-dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792 --dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792",
+    "command": "/usr/local/bin/pnpm add create-umi@latest --global --global-dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792 --dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792",
+    "escapedCommand": "\"/usr/local/bin/pnpm\" add \"create-umi@latest\" --global --global-dir \"/private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792\" --dir \"/private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /usr/local/bin/pnpm add create-umi@latest --global --global-dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792 --dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792",
+      "stack": "pnpm: Command failed with exit code 1: /usr/local/bin/pnpm add create-umi@latest --global --global-dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792 --dir /private/var/folders/zf/0xjbnljn7xq_5xnd_p3ry4k80000gn/T/dlx-16792\n    at makeError (/Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:42502:17)\n    at handlePromise (/Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:43073:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler [as dlx] (/Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:177503:7)\n    at async /Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182194:21\n    at async run (/Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182168:34)\n    at async runPnpm (/Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182387:5)\n    at async /Users/prince/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182379:7"
+    }
+  }
+}
