@@ -30,14 +30,9 @@ export default defineConfig({
       component: './Formily',
     },
     {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-        name: ' CRUD 示例',
-        path: '/table',
-        component: './Table',
+      name: 'Redux状态管理',
+      path: '/redux',
+      component: './Redux',
     },
   ],
   npmClient: 'pnpm',
